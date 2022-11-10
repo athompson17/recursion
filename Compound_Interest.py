@@ -1,4 +1,6 @@
-def get_compound_interest_balance(p,r,t):   
+## Comment your code!
+
+def get_compound_interest_balance(p,r,t):
     #formula for compound interest
     amount = p * (pow((1 + (r/100)),t))
     
