@@ -1,0 +1,19 @@
+'''
+Created on Nov 3, 2022
+Gavin Haroche
+Version 1.0, added conditionals and return statements
+Bugs: None
+Current Version 1.1 Added documentation
+
+Function: GCD, its job is to return the altered mathmatically function value based off of parameters.
+X and Y are the two parameters that get passed through, acting as two numbers to do calculations on.
+'''
+
+
+def GCD(x, y):                                                                                                          #calling the function
+    if y <= x and (x % y) == 0:                                                                                         #conditional one, % means
+        return y                                                                                                        #return the y statement
+    else:
+        return GCD(y, (x % y))                                                                                          #translated statement
+
+
