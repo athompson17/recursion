@@ -5,15 +5,3 @@ def get_sum_of_numers_digits(a,n):
     elif n == 0:
         return get_sum_of_numers_digits(n+10) + n % 10
     
-
-    
-
-def main():
-    
-    a = 4
-    n = 4 
-    print(get_sum_of_numers_digits(a,n))
-    
-    
-if __name__ == '__main__':
-    main()
