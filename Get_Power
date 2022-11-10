@@ -1,4 +1,7 @@
 def get_powers(a,n):
+    """
+    
+    """
 
     if n > 0:
         return a * get_powers(a,n-1)
